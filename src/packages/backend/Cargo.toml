@@ -8,7 +8,7 @@ console_error_panic_hook = "0.1.7"
 console_log = "1.0.0"
 log = "0.4.22"
 wasm-bindgen = "0.2.93"
-ureq = { path = "../../../../ureq", default-features = false }
+ureq = { git = "https://github.com/brandonros/ureq.git", rev = "9a7dc98edf6d48ad3b8df13028e6604703c3164a", default-features = false }
 
 [lib]
 crate-type = ["cdylib", "rlib"]
